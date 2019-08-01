@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+hello {
+display:block;
+background-color:#dddddd;
+padding:50px;
+font-size:30px;
+}
+</style>
+</head>
+<body>
+<hello>welcome to page</hello>
+<h2>enter your email</h2>
+<form action="/action_page.php">
+e.mail:
+<input type="email" name="email" autocompelete="off"><br>
+<input type="submit" value="send">
+</form>
+<hr>
+<h2>Fill out the form</h2>
+<form action="/action_page.php" target="_blank" method="GET">
+first name:<br>
+<input type="text" name="first name" value="shokoofeh" size="60" autofocus>
+<br>
+last name:<br>
+<input type="text" name="lastname" value="shafieeii" disabled>
+<br>
+user password:<br>
+<input type="password" name="psw" maxlength="8">
+<br><br>
+<input type="submit" value="submit">
+<input type="reset">
+</form>
+<hr>
+<h2>Fill out the radio button</h2>
+<form>
+<input type="radio" name="gender" value="male" checked>male<br>
+<input type="radio" name="gender" value="female">female<br>
+<input type="checkbox" name="gender" value="other">other<br>
+<input type="submit">
+</form>
+<hr>
+<h2>Choose your city</h2>
+<form action="/action_page.php">
+<select name="city">
+<option value="sari">sari</option>
+<option value="jouybar">jouybar</option>
+<option value="rasht">rasht</option>
+</select>
+<br><br>
+<input type="submit">
+</form>
+<hr>
+<h2>history</h2>
+<form action="/action_page.php">
+<textarea name="message" rows="10" cols="30">The WHATWG Web Application Technology Technology Working Group started working on the new standard from year 2. At that time, HTML4 had not been updated since year 2, and the web consortium was focused on future XHTML2 developments. In year 2, the W3C allowed the XHTML 2 Working Group Charter to expire and decided not to renew it. W3C and WHATWG are currently working on developing HTML5.
+</textarea>
+<br>
+<input type="color" name="favcolor" value="ff0000">
+<input type="submit">
+</form>
+<h2>welcoome!!!!<h2>
+<button type="button" onclick="alert('hi there')">click me!!!</button>
+<hr>
+<form action="/action_pages.php">
+<input id="browsers" name="browser">
+<datalist id="browsers">
+<option value="internet explorer">
+<option value="firefox">
+<option value="chorme">
+</datalist>
+<input type="submit">
+</form>
+<hr>
+<form action="/action_pages.php" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+0
+<input type="range" id="a" name="a" value="50">
+100 +
+<input type="number" id="b" name="b" value="50">
+=
+<output name="x" for="a b"></output>
+<br><br>
+<input type="submit">
+</form>
+<hr>
+<form action="/action_pages.php">
+select a file:<input type="file" name="myfile"><br><br>
+enter your birthday:<br>
+<input type="datetime-local" name="happy" max="1979-12-31"><br><br>
+<input type="week" name="year_week">
+<input type="submit" value="send">
+</form>
+<hr>
+<form action="/action_pages.php">
+number between 1 and 100:
+<input type="number" name="nmr" min="1" max="100">
+<input type="submit" value="send">
+</form>
+<form action="/action_page_binary.asp" method="post">
+first name:<input type="text" name="fname"><br>
+<input type="submit" value="send">
+<input type="submit" formenctype="multipart/form-data" value="sendd">
+</form>
+<hr>
+<nav> 
+<a href="/html/">html</a> ||
+<a href="/css/">css</a> ||
+<a href="/js/">js</a> ||
+<a href="/jquery/">jquery</a>
+</nav>
+<hr>
+<figure>
+<img src="pic_trulli.jpg" alt="ax" style="width:100%">
+<figcaption>shafieei</figcaption>
+</figure>
+<hr>
+<svg width="300" height="200">
+<polygon points="100,10 40,198 190,78 10,78 160,198" style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;"/>
+</svg>
+</body>
+</html>
